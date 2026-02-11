@@ -1,0 +1,48 @@
+{% extends 'base/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %} Homepage {% endblock %}
+
+{% block content %}
+    
+{% include 'components/header.html' %}
+
+
+
+
+<div class="container">
+
+
+  <div class="row mt-3 rounded d-flex justify-content-center ">
+    <a class="btn btn-success text-white w-25" href="{% url 'add_musician' %}">ADD</a>
+  </div>
+
+  <div class="d-flex  justify-content-center mt-4 gap-3">
+
+    {% for d in data %}
+       
+          <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{d.first_name}}</h5>
+          <h5 class="card-title">{{d.last_name}}</h5>
+          <p class="card-text">{{d.instrument_type}}</p>
+           <div class="card-body">
+          <a href="{% url 'edit_musician' d.id %}" class=" btn btn-outline-success card-link">Edit</a>
+          <a href="{% url 'delete_musician' d.id %}" class="btn btn-danger  card-link">Delete</a>
+        </div>
+         
+        </div>
+      </div>
+            
+    {% endfor %}
+  </div>
+ 
+</div>
+
+
+
+
+
+
+{% endblock %}
