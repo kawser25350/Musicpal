@@ -19,12 +19,12 @@ Musicpal is a simple Django application that allows you to manage musicians and 
 
 ##  Features
 
-- ✅ Add, edit, and delete musicians
-- ✅ Add, edit, and delete albums
-- ✅ Link albums to specific musicians (Foreign Key relationship)
-- ✅ Form validation for data integrity
-- ✅ No authentication required (open access)
-- ✅ SQLite database for data persistence
+-  Add, edit, and delete musicians
+-  Add, edit, and delete albums
+-  Link albums to specific musicians (Foreign Key relationship)
+-  Form validation for data integrity
+-  No authentication required (open access)
+-  SQLite database for data persistence
 
 ##  Project Structure
 
