@@ -2,7 +2,7 @@
 
 A Django web application for managing musicians and their albums without authentication. This project demonstrates basic CRUD (Create, Read, Update, Delete) operations using Django models and forms.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -11,13 +11,13 @@ A Django web application for managing musicians and their albums without authent
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 
-## 🎯 Overview
+##  Overview
 
 Musicpal is a simple Django application that allows you to manage musicians and their music albums. The project consists of two main apps:
 - **musician**: Manages musician information
 - **album**: Manages music albums linked to musicians
 
-## ✨ Features
+##  Features
 
 - ✅ Add, edit, and delete musicians
 - ✅ Add, edit, and delete albums
@@ -26,7 +26,7 @@ Musicpal is a simple Django application that allows you to manage musicians and 
 - ✅ No authentication required (open access)
 - ✅ SQLite database for data persistence
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Musicpal/
@@ -53,7 +53,7 @@ Musicpal/
 
 ---
 
-## 🗄️ Models Explained
+##  Models Explained
 
 ### 1. Musician Model
 
@@ -128,7 +128,7 @@ One musician can have multiple albums, but each album belongs to only one musici
 
 ---
 
-## 📝 Forms Explained
+##  Forms Explained
 
 ### 1. MusicianForm
 
@@ -228,7 +228,7 @@ class AlbumForm(forms.ModelForm):
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -277,7 +277,7 @@ class AlbumForm(forms.ModelForm):
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Managing Musicians
 
@@ -327,7 +327,7 @@ class AlbumForm(forms.ModelForm):
 
 ---
 
-## 🔍 Key Django Concepts Demonstrated
+##  Key Django Concepts Demonstrated
 
 ### 1. **Models (Database Layer)**
 - Model field types (CharField, EmailField, DateTimeField, IntegerField)
@@ -373,7 +373,7 @@ album.delete()
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 By studying this project, you'll understand:
 - ✅ How to create Django models with relationships
@@ -386,7 +386,7 @@ By studying this project, you'll understand:
 
 ---
 
-## 🐛 Known Issues
+##  Known Issues
 
 1. **musician/models.py line 9**: `instrument_type` field is missing `max_length` parameter
    ```python
@@ -401,25 +401,25 @@ By studying this project, you'll understand:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
 ---
 
-## 👤 Author
+##  Author
 
 **kawser25350**
 - GitHub: [@kawser25350](https://github.com/kawser25350)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 This project serves as a beginner-friendly example of Django's core features for database interaction without the complexity of authentication systems.
