@@ -248,9 +248,9 @@ class AlbumForm(forms.ModelForm):
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Django**
+3. **Install dependencies from requirements.txt**
    ```bash
-   pip install django
+   pip install -r requirements.txt
    ```
 
 4. **Run migrations**
@@ -274,8 +274,6 @@ class AlbumForm(forms.ModelForm):
    - Musicians: http://127.0.0.1:8000/musician/
    - Albums: http://127.0.0.1:8000/album/
    - Admin: http://127.0.0.1:8000/admin/
-
----
 
 ##  Usage
 
